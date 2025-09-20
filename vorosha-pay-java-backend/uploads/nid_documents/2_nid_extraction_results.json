@@ -1,0 +1,55 @@
+{
+  "nid_image_1.jpg": {
+    "extracted_text": [
+      {
+        "text": "Government of the People's Republic of Bangladesh",
+        "confidence": 0.881
+      },
+      {
+        "text": "TN:",
+        "confidence": 0.51
+      },
+      {
+        "text": "Name: SAZIA RAHMAN",
+        "confidence": 0.664
+      },
+      {
+        "text": "YNT:",
+        "confidence": 0.292
+      },
+      {
+        "text": "Date of Birth: 27 Jul 1999",
+        "confidence": 0.695
+      },
+      {
+        "text": "ID NO: 3307153563",
+        "confidence": 0.503
+      },
+      {
+        "text": "aifaya",
+        "confidence": 0.287
+      }
+    ]
+  },
+  "nid_image_2.jpg": {
+    "extracted_text": [
+      {
+        "text": "Jg",
+        "confidence": 0.226
+      },
+      {
+        "text": "TEEAL Blood Group: Bt",
+        "confidence": 0.214
+      },
+      {
+        "text": "09",
+        "confidence": 0.345
+      }
+    ]
+  },
+  "summary": {
+    "Name:": "SAZIA RAHMAN",
+    "Date of Birth:": "27 Jul 1999",
+    "ID NO:": "3307153563"
+  }
+}
