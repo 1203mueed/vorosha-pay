@@ -1,0 +1,47 @@
+{
+  "nid_image_1.jpg": {
+    "extracted_text": [
+      {
+        "text": "Government of the People's Republic of Bangladesh",
+        "confidence": 0.75
+      },
+      {
+        "text": "TN:",
+        "confidence": 0.411
+      },
+      {
+        "text": "Name:",
+        "confidence": 1.0
+      },
+      {
+        "text": "MD.RAIHAN CHOWDHURY",
+        "confidence": 0.706
+      },
+      {
+        "text": "TIR @T",
+        "confidence": 0.338
+      },
+      {
+        "text": "Date of Birth: 28 Jun 2001",
+        "confidence": 0.763
+      },
+      {
+        "text": "ID NO: 1515044400",
+        "confidence": 0.745
+      }
+    ]
+  },
+  "nid_image_2.jpg": {
+    "extracted_text": [
+      {
+        "text": "NT: 0>",
+        "confidence": 0.218
+      }
+    ]
+  },
+  "summary": {
+    "Name:": "MD.RAIHAN CHOWDHURY",
+    "Date of Birth:": "28 Jun 2001",
+    "ID NO:": "1515044400"
+  }
+}

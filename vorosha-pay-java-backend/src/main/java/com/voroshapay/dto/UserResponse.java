@@ -12,6 +12,8 @@ public class UserResponse {
     private String email;
     private String phone;
     private Boolean isVerified;
+    private Boolean isPhoneVerified;
+    private Boolean isNIDVerified;
     private Set<UserRole> roles;
     private LocalDateTime createdAt;
     private LocalDateTime updatedAt;
@@ -24,6 +26,8 @@ public class UserResponse {
         this.email = user.getEmail();
         this.phone = user.getPhone();
         this.isVerified = user.getIsVerified();
+        this.isPhoneVerified = user.getIsPhoneVerified();
+        this.isNIDVerified = user.getIsNIDVerified();
         this.roles = user.getRoles();
         this.createdAt = user.getCreatedAt();
         this.updatedAt = user.getUpdatedAt();
@@ -45,6 +49,12 @@ public class UserResponse {
     public Boolean getIsVerified() { return isVerified; }
     public void setIsVerified(Boolean isVerified) { this.isVerified = isVerified; }
     
+    public Boolean getIsPhoneVerified() { return isPhoneVerified; }
+    public void setIsPhoneVerified(Boolean isPhoneVerified) { this.isPhoneVerified = isPhoneVerified; }
+    
+    public Boolean getIsNIDVerified() { return isNIDVerified; }
+    public void setIsNIDVerified(Boolean isNIDVerified) { this.isNIDVerified = isNIDVerified; }
+    
     public Set<UserRole> getRoles() { return roles; }
     public void setRoles(Set<UserRole> roles) { this.roles = roles; }
     
@@ -53,4 +63,4 @@ public class UserResponse {
     
     public LocalDateTime getUpdatedAt() { return updatedAt; }
     public void setUpdatedAt(LocalDateTime updatedAt) { this.updatedAt = updatedAt; }
-} 
+}

@@ -28,7 +28,7 @@ export default function DeliveryPhotos({ transactionId, showTitle = true }: Deli
     try {
       setLoading(true)
       const response = await deliveryAPI.getDeliveryDetails(transactionId)
-      setDelivery(response.data.delivery)
+      setDelivery(response.data)
     } catch (error: any) {
       setError(error.response?.data?.message || 'Failed to load delivery details')
     } finally {
@@ -152,4 +152,4 @@ export default function DeliveryPhotos({ transactionId, showTitle = true }: Deli
       )}
     </>
   )
-} 
+}
